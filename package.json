@@ -1,0 +1,31 @@
+{
+  "name": "highrise-bot-complete",
+  "version": "1.0.0",
+  "description": "Complete Highrise Bot with all features - Outfit copy, Click teleport, 279 Emotes, AI Chat, Economy, Moderation, and more",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "highrise",
+    "bot",
+    "sdk",
+    "game",
+    "automation"
+  ],
+  "author": "Highrise Bot Developer",
+  "license": "MIT",
+  "dependencies": {
+    "highrise.sdk": "latest",
+    "axios": "^1.6.0",
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
